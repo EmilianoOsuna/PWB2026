@@ -1,0 +1,114 @@
+version: 1.0.0
+scope: project
+project: diana-inversions
+alias: inv
+last_updated: 2026-05-03
+
+engines:
+  speckit:
+    specify:
+      required_skills:
+        - 001-speckit-specify-validation
+        - 001-inv-constitution-governance
+        - 002-inv-portfolio-management
+      agent: Morpheus
+      output: spec.md
+
+    clarify:
+      required_skills:
+        - 002-speckit-clarify-gap-analysis
+        - 003-inv-signal-confluence
+        - 007-inv-market-exploration-alerts
+      agent: Morpheus
+      output: clarify.md
+
+    plan:
+      required_skills:
+        - 003-speckit-plan-decomposition
+        - 004-inv-broker-integration
+        - 006-inv-agent-governance
+      agent: Architect
+      output: plan.md
+
+    tasks:
+      required_skills:
+        - 004-speckit-tasks-atomicity
+        - 002-inv-portfolio-management
+        - 005-inv-auditability-documentation
+      agent: KRILIN
+      output: tasks.md
+
+    implement:
+      required_skills:
+        - 005-speckit-implement-governance
+        - 004-inv-broker-integration
+        - 005-inv-auditability-documentation
+        - 006-inv-agent-governance
+      agent: Neo
+      output: implementation
+
+  openspec:
+    specify:
+      required_skills:
+        - 001-SDK-SDDCORE
+        - 001-speckit-specify-validation
+      agent: PICCOLO
+      output: spec.md
+    clarify:
+      required_skills:
+        - 001-SDK-SDDCORE
+        - 002-speckit-clarify-gap-analysis
+      agent: MORPHEUS
+      output: clarify.md
+    plan:
+      required_skills:
+        - 001-SDK-SDDCORE
+        - 003-speckit-plan-decomposition
+        - 002-SDK-TSSTACK
+      agent: BULMA
+      output: plan.md
+    tasks:
+      required_skills:
+        - 001-SDK-SDDCORE
+        - 004-speckit-tasks-atomicity
+      agent: KRILIN
+      output: tasks.md
+    implement:
+      required_skills:
+        - 001-SDK-SDDCORE
+        - 005-speckit-implement-governance
+        - 002-SDK-TSSTACK
+      agent: GOHAN
+      output: implementation
+
+  generic_sdd:
+    specify:
+      required_skills:
+        - 001-SDK-SDDCORE
+        - 001-speckit-specify-validation
+      agent: PICCOLO
+      output: spec.md
+    clarify:
+      required_skills:
+        - 001-SDK-SDDCORE
+        - 002-speckit-clarify-gap-analysis
+      agent: MORPHEUS
+      output: clarify.md
+    plan:
+      required_skills:
+        - 001-SDK-SDDCORE
+        - 003-speckit-plan-decomposition
+      agent: BULMA
+      output: plan.md
+    tasks:
+      required_skills:
+        - 001-SDK-SDDCORE
+        - 004-speckit-tasks-atomicity
+      agent: KRILIN
+      output: tasks.md
+    implement:
+      required_skills:
+        - 001-SDK-SDDCORE
+        - 005-speckit-implement-governance
+      agent: GOHAN
+      output: implementation
