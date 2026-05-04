@@ -1,0 +1,213 @@
+version: 1.0.0
+scope: project
+project: diana-inversions
+alias: inv
+layer: both
+last_updated: 2026-05-03
+source_of_truth:
+  constitution: .drfic/diana-sdk/projects/diana-inversions/inv-constitution.md
+  spec: .drfic/diana-sdk/projects/diana-inversions/initiatives/001-inversions/001-inv-spec.md
+  ucc: .drfic/diana-sdk/projects/diana-inversions/governance/change-requests/001-inv-ucc.md
+  ticket: .drfic/diana-sdk/projects/diana-inversions/governance/tickets/001-inv-tkt.md
+
+skills:
+  - id: 001-SDK-SDDCORE
+    name: sdd-core-methodology
+    layer: shared
+    criticality: high
+    source_of_truth: .drfic/diana-sdk/sdk/diana/knowledge/indexes/shared-skills-manifest.yaml
+    skill_doc: .drfic/diana-sdk/sdk/diana/knowledge/skills/001-SDK-SDDCORE.md
+    knowledge_docs:
+      - .drfic/diana-sdk/sdk/diana/knowledge/indexes/master-index.md
+      - .drfic/diana-sdk/sdk/diana/knowledge/indexes/shared-skills-manifest.yaml
+
+  - id: 002-SDK-TSSTACK
+    name: typescript-react-node-stack
+    layer: shared
+    criticality: medium
+    source_of_truth: .drfic/diana-sdk/sdk/diana/knowledge/indexes/shared-skills-manifest.yaml
+    skill_doc: .drfic/diana-sdk/sdk/diana/knowledge/skills/002-SDK-TSSTACK.md
+    knowledge_docs:
+      - .drfic/diana-sdk/sdk/diana/knowledge/indexes/master-index.md
+      - .drfic/diana-sdk/sdk/diana/knowledge/indexes/shared-skills-manifest.yaml
+
+  - id: 001-speckit-specify-validation
+    name: speckit-specify-validation
+    layer: general
+    criticality: high
+    source_of_truth: .github/prompts/speckit.specify.prompt.md
+    skill_doc: ../skills/001-speckit-specify-validation.md
+    knowledge_docs:
+      - .drfic/diana-sdk/sdk/diana/knowledge/indexes/shared-skills-manifest.yaml
+      - .drfic/diana-sdk/sdk/diana/knowledge/indexes/master-index.md
+
+  - id: 002-speckit-clarify-gap-analysis
+    name: speckit-clarify-gap-analysis
+    layer: general
+    criticality: medium
+    source_of_truth: .github/prompts/speckit.clarify.prompt.md
+    skill_doc: ../skills/002-speckit-clarify-gap-analysis.md
+    knowledge_docs:
+      - .drfic/diana-sdk/sdk/diana/knowledge/indexes/shared-skills-manifest.yaml
+      - .drfic/diana-sdk/sdk/diana/knowledge/indexes/master-index.md
+
+  - id: 003-speckit-plan-decomposition
+    name: speckit-plan-decomposition
+    layer: general
+    criticality: high
+    source_of_truth: .github/prompts/diana.plan.prompt.md
+    skill_doc: ../skills/003-speckit-plan-decomposition.md
+    knowledge_docs:
+      - .drfic/diana-sdk/sdk/diana/knowledge/indexes/shared-skills-manifest.yaml
+      - .drfic/diana-sdk/sdk/diana/knowledge/indexes/master-index.md
+
+  - id: 004-speckit-tasks-atomicity
+    name: speckit-tasks-atomicity
+    layer: general
+    criticality: high
+    source_of_truth: .specify/templates/tasks-template.md
+    skill_doc: ../skills/004-speckit-tasks-atomicity.md
+    knowledge_docs:
+      - .drfic/diana-sdk/sdk/diana/knowledge/indexes/shared-skills-manifest.yaml
+      - .drfic/diana-sdk/sdk/diana/knowledge/indexes/master-index.md
+
+  - id: 005-speckit-implement-governance
+    name: speckit-implement-governance
+    layer: general
+    criticality: high
+    source_of_truth: .specify/templates/plan-template.md
+    skill_doc: ../skills/005-speckit-implement-governance.md
+    knowledge_docs:
+      - .drfic/diana-sdk/sdk/diana/knowledge/indexes/shared-skills-manifest.yaml
+      - .drfic/diana-sdk/sdk/diana/knowledge/indexes/master-index.md
+
+  - id: 001-inv-constitution-governance
+    name: investment-constitution-governance
+    layer: project
+    criticality: high
+    source_of_truth: .drfic/diana-sdk/projects/diana-inversions/inv-constitution.md
+    skill_doc: ../skills/001-inv-constitution-governance.md
+    knowledge_docs:
+      - .drfic/diana-sdk/projects/diana-inversions/inv-constitution.md
+      - .drfic/diana-sdk/projects/diana-inversions/governance/change-requests/001-inv-ucc.md
+      - .drfic/diana-sdk/projects/diana-inversions/initiatives/001-inversions/001-inv-spec.md
+
+  - id: 002-inv-portfolio-management
+    name: portfolio-management
+    layer: project
+    criticality: high
+    source_of_truth: .drfic/diana-sdk/projects/diana-inversions/governance/change-requests/001-inv-ucc.md
+    skill_doc: ../skills/002-inv-portfolio-management.md
+    knowledge_docs:
+      - .drfic/diana-sdk/projects/diana-inversions/initiatives/001-inversions/001-inv-spec.md
+      - .drfic/diana-sdk/projects/diana-inversions/governance/change-requests/001-inv-ucc.md
+
+  - id: 003-inv-signal-confluence
+    name: signal-confluence
+    layer: project
+    criticality: high
+    source_of_truth: .drfic/diana-sdk/projects/diana-inversions/inv-constitution.md
+    skill_doc: ../skills/003-inv-signal-confluence.md
+    knowledge_docs:
+      - .drfic/diana-sdk/projects/diana-inversions/inv-constitution.md
+      - .drfic/diana-sdk/projects/diana-inversions/initiatives/001-inversions/001-inv-spec.md
+
+  - id: 004-inv-broker-integration
+    name: broker-integration
+    layer: project
+    criticality: high
+    source_of_truth: .drfic/diana-sdk/projects/diana-inversions/initiatives/001-inversions/001-inv-spec.md
+    skill_doc: ../skills/004-inv-broker-integration.md
+    knowledge_docs:
+      - .drfic/diana-sdk/projects/diana-inversions/initiatives/001-inversions/001-inv-spec.md
+      - .drfic/diana-sdk/projects/diana-inversions/inv-constitution.md
+
+  - id: 005-inv-auditability-documentation
+    name: auditability-documentation
+    layer: project
+    criticality: medium
+    source_of_truth: .drfic/diana-sdk/projects/diana-inversions/inv-constitution.md
+    skill_doc: ../skills/005-inv-auditability-documentation.md
+    knowledge_docs:
+      - .drfic/diana-sdk/projects/diana-inversions/initiatives/001-inversions/001-inv-spec.md
+      - .drfic/diana-sdk/projects/diana-inversions/governance/tickets/001-inv-tkt.md
+
+  - id: 006-inv-agent-governance
+    name: agent-governance
+    layer: project
+    criticality: medium
+    source_of_truth: .drfic/diana-sdk/projects/diana-inversions/inv-constitution.md
+    skill_doc: ../skills/006-inv-agent-governance.md
+    knowledge_docs:
+      - .drfic/diana-sdk/projects/diana-inversions/inv-constitution.md
+      - .github/agents/diana.skills.agent.md
+      - .github/agents/diana.knowledge.agent.md
+
+  - id: 007-inv-market-exploration-alerts
+    name: market-exploration-alerts
+    layer: project
+    criticality: medium
+    source_of_truth: .drfic/diana-sdk/projects/diana-inversions/governance/change-requests/001-inv-ucc.md
+    skill_doc: ../skills/007-inv-market-exploration-alerts.md
+    knowledge_docs:
+      - .drfic/diana-sdk/projects/diana-inversions/governance/change-requests/001-inv-ucc.md
+      - .drfic/diana-sdk/projects/diana-inversions/initiatives/001-inversions/001-inv-spec.md
+
+required_skills:
+  speckit:
+    specify:
+      - 001-speckit-specify-validation
+      - 001-inv-constitution-governance
+      - 002-inv-portfolio-management
+    clarify:
+      - 002-speckit-clarify-gap-analysis
+      - 003-inv-signal-confluence
+      - 007-inv-market-exploration-alerts
+    plan:
+      - 003-speckit-plan-decomposition
+      - 004-inv-broker-integration
+      - 006-inv-agent-governance
+    tasks:
+      - 004-speckit-tasks-atomicity
+      - 002-inv-portfolio-management
+      - 005-inv-auditability-documentation
+    implement:
+      - 005-speckit-implement-governance
+      - 004-inv-broker-integration
+      - 005-inv-auditability-documentation
+
+  openspec:
+    specify:
+      - 001-speckit-specify-validation
+      - 001-inv-constitution-governance
+    clarify:
+      - 002-speckit-clarify-gap-analysis
+      - 003-inv-signal-confluence
+    plan:
+      - 003-speckit-plan-decomposition
+      - 004-inv-broker-integration
+    tasks:
+      - 004-speckit-tasks-atomicity
+      - 005-inv-auditability-documentation
+    implement:
+      - 005-speckit-implement-governance
+      - 006-inv-agent-governance
+
+  generic_sdd:
+    specify:
+      - 001-SDK-SDDCORE
+      - 001-speckit-specify-validation
+    clarify:
+      - 001-SDK-SDDCORE
+      - 002-speckit-clarify-gap-analysis
+    plan:
+      - 001-SDK-SDDCORE
+      - 003-speckit-plan-decomposition
+      - 002-SDK-TSSTACK
+    tasks:
+      - 001-SDK-SDDCORE
+      - 004-speckit-tasks-atomicity
+    implement:
+      - 001-SDK-SDDCORE
+      - 005-speckit-implement-governance
+      - 002-SDK-TSSTACK

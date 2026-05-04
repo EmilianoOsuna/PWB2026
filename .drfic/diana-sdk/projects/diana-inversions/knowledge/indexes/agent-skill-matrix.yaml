@@ -1,0 +1,87 @@
+version: 1.0.0
+scope: project
+project: diana-inversions
+alias: inv
+last_updated: 2026-05-03
+
+agents:
+  - id: Morpheus
+    role: analysis-research-design
+    primary_skills:
+      - 001-inv-constitution-governance
+      - 003-inv-signal-confluence
+    secondary_skills:
+      - 001-speckit-specify-validation
+      - 002-speckit-clarify-gap-analysis
+
+  - id: Neo
+    role: implementation
+    primary_skills:
+      - 002-inv-portfolio-management
+      - 006-inv-agent-governance
+    secondary_skills:
+      - 005-inv-auditability-documentation
+      - 005-speckit-implement-governance
+
+  - id: Trinity
+    role: optimization-security
+    primary_skills:
+      - 004-inv-broker-integration
+      - 005-inv-auditability-documentation
+    secondary_skills:
+      - 003-speckit-plan-decomposition
+      - 005-speckit-implement-governance
+
+  - id: Architect
+    role: data-and-rest-services
+    primary_skills:
+      - 004-inv-broker-integration
+      - 002-inv-portfolio-management
+    secondary_skills:
+      - 003-speckit-plan-decomposition
+      - 004-speckit-tasks-atomicity
+
+  - id: Oracle
+    role: validation-testing
+    primary_skills:
+      - 005-inv-auditability-documentation
+      - 003-inv-signal-confluence
+    secondary_skills:
+      - 002-speckit-clarify-gap-analysis
+      - 004-speckit-tasks-atomicity
+
+  - id: Osuna
+    role: human-approval
+    primary_skills:
+      - 001-inv-constitution-governance
+      - 006-inv-agent-governance
+    secondary_skills:
+      - 005-speckit-implement-governance
+      - 001-speckit-specify-validation
+
+speckit_stage_agents:
+  specify:
+    primary: Morpheus
+    secondary:
+      - Oracle
+  clarify:
+    primary: Morpheus
+    secondary:
+      - Oracle
+      - Architect
+  plan:
+    primary: Architect
+    secondary:
+      - Trinity
+      - Osuna
+  tasks:
+    primary: KRILIN
+    secondary:
+      - Neo
+      - Architect
+  implement:
+    primary: Neo
+    secondary:
+      - Trinity
+      - Architect
+      - Osuna

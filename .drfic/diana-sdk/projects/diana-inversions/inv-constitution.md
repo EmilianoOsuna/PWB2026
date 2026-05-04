@@ -1,28 +1,21 @@
-<!-- SYNC IMPACT REPORT (diana-inversions_app Constitution Export v2.1.0)
-Version: 1.0.0 → 2.1.0 (MINOR: Major expansion of normative sections)
-Change Type: MINOR - Ampliaciones normativas sin ruptura del propósito base
-Source: .drfic/diana-sdk/projects/diana-inversions/inv-constitution.md
-Canonical Definition: Yes (Full content preservation, structure normalization only)
-Timestamp: 2026-05-03
-Primary Traceability: UCC 001-inversions-ucc + temporal/project_constitution.md enrichment
-Modified Sections: +14 new sections (Constitutional Operational Model through Final Declaration)
--->
+# Constitución del Proyecto
+## diana-inversions_app
 
-# diana-inversions_app Constitution
-
-**Project**: diana-inversions_app | **Canonical Alias**: inversions | **Version**: 2.1.0 | **Status**: Activa (Active)  
-**Primary Source**: [001-inversions-ucc](governance/change-requests/001-inversions-ucc.md) | **Enrichment Source**: temporal/project_constitution.md  
-**Last Updated**: 2026-05-03
+**Alias canónico:** inversions  
+**Versión:** 2.1.0  
+**Fuente primaria:** [001-inversions-ucc](governance/change-requests/001-inversions-ucc.md)  
+**Fuente de enriquecimiento:** temporal/project_constitution.md
+**Última actualización**: 02/05/2026
 
 ---
 
-## 1. Purpose and Scope
+## 1. Propósito y Alcance
 
 Este proyecto existe para diseñar, construir y evolucionar una plataforma profesional de inversiones asistida por inteligencia artificial, orientada al mercado estadounidense de acciones y opciones, que ayude a personas y equipos a tomar decisiones de inversión con mayor precisión, trazabilidad y control.
 
 El sistema debe centralizar portafolios, explorar mercado, generar señales, registrar operaciones, mostrar rendimiento y aportar análisis asistido por IA sin sustituir el criterio humano.
 
-**Out of Scope**:
+Fuera de alcance:
 - Ejecución automática de órdenes sin aprobación humana explícita
 - IA como fuente única de decisión
 - Operación sin trazabilidad, evidencia o auditoría
@@ -30,7 +23,7 @@ El sistema debe centralizar portafolios, explorar mercado, generar señales, reg
 
 ---
 
-## 2. Constitutional Operational Model
+## 2. Modelo Operativo Constitucional
 
 La plataforma adopta un modelo semi-automático por definición constitucional:
 
@@ -41,7 +34,7 @@ La plataforma adopta un modelo semi-automático por definición constitucional:
 
 ---
 
-## 3. Non-Negotiable Principles
+## 3. Principios No Negociables
 
 - La especificación y la constitución gobiernan al código.
 - No se permiten inferencias funcionales no sustentadas por una fuente formal.
@@ -53,11 +46,11 @@ La plataforma adopta un modelo semi-automático por definición constitucional:
 
 ---
 
-## 4. Constitutional System Architecture
+## 4. Arquitectura Constitucional del Sistema
 
 El sistema se organiza por cores desacoplados. Cada core representa una fuente de verdad especializada, activable o desactivable por el usuario.
 
-**Authorized Cores**:
+Cores admitidos por esta constitución:
 - Análisis fundamental
 - Análisis técnico de estructura, tendencia, soportes, resistencias e indicadores
 - Flujo institucional y eventos de mercado
@@ -68,7 +61,7 @@ Cada core debe ser funcional y técnicamente desacoplado. La arquitectura debe p
 
 ---
 
-## 5. Confluence Principle
+## 5. Principio de Confluencia
 
 Una señal solo puede considerarse constitucionalmente válida cuando:
 
@@ -77,11 +70,11 @@ Una señal solo puede considerarse constitucionalmente válida cuando:
 3. Se alcanza el nivel de confianza y score definidos por la configuración del sistema.
 4. El razonamiento de cada core es explicable y trazable.
 
-**Non-negotiable**: No se permiten señales black-box.
+No se permiten señales black-box.
 
 ---
 
-## 6. Role of Artificial Intelligence
+## 6. Rol de la Inteligencia Artificial
 
 - La IA es un core adicional del sistema.
 - La IA puede confirmar, correlacionar, resumir y evaluar riesgo.
@@ -91,9 +84,9 @@ Una señal solo puede considerarse constitucionalmente válida cuando:
 
 ---
 
-## 7. Functional Constitutional Scope
+## 7. Alcance Funcional Constitucional
 
-**Includes**:
+Incluye:
 - Generación y visualización de señales de compra y venta
 - Evaluación de oportunidades en acciones y opciones
 - Integración con brokers profesionales reales
@@ -102,7 +95,7 @@ Una señal solo puede considerarse constitucionalmente válida cuando:
 - Persistencia, logs y evidencia operativa
 - Exploración del mercado y seguimiento del portafolio
 
-**Excludes**:
+Excluye:
 - Auto-trading sin intervención humana
 - IA como única fuente de decisión
 - Operación sin trazabilidad
@@ -110,7 +103,7 @@ Una señal solo puede considerarse constitucionalmente válida cuando:
 
 ---
 
-## 8. Engineering and Quality
+## 8. Ingeniería y Calidad
 
 El proyecto se rige por estos principios de ingeniería:
 
@@ -125,11 +118,11 @@ La arquitectura debe permitir evolución incremental de portafolio, señales, al
 
 ---
 
-## 9. Constitutional Technology Stack
+## 9. Stack Tecnológico Constitucional
 
 La constitución fija estándares mínimos, no la implementación detallada.
 
-**PWA Base**:
+PWA base:
 - Vite como entorno de desarrollo y bundler
 - React como framework de interfaz
 - TypeScript como lenguaje principal
@@ -138,7 +131,7 @@ La constitución fija estándares mínimos, no la implementación detallada.
 
 Este stack define el estándar mínimo constitucional para todas las aplicaciones PWA del ecosistema.
 
-**Backend Mínimo**:
+Backend mínimo:
 - REST API
 - Node.js
 - Express como framework base
@@ -147,11 +140,11 @@ El backend es responsable de persistencia real, seguridad de credenciales, integ
 
 ---
 
-## 10. Constitutional Documentation Standard
+## 10. Estándar Constitucional de Documentación
 
 Todo código generado para el proyecto, ya sea por humanos o por agentes de IA, debe cumplir obligatoriamente con este estándar:
 
-- Comentarios con prefijo `💬Osuna:`
+- Comentarios con el prefijo `💬Osuna:`
 - Emojis al inicio de comentarios:
   - 💬 explicación
   - ⚠️ advertencia
@@ -159,29 +152,34 @@ Todo código generado para el proyecto, ya sea por humanos o por agentes de IA, 
   - 💡 idea
 - Documentación en inglés y español (EN/ES)
 
-**Minimum expectations**:
-- Aplicado obligatoriamente en: módulos, servicios, hooks públicos, lógica crítica e integraciones con brokers y motores de señales
+Todo código generado debe incluir documentación suficiente para mantener auditabilidad del comportamiento crítico.
+
+Mínimos esperados:
+- Aplicado obligatoriamente en: módulos, servicios, hooks públicos, lógica crítica e integraciones con brokers y motores de señales o integraciones sensibles
 - Explicación clara de propósito, decisión y efecto
 - Trazabilidad suficiente para revisión humana y de agentes
 
-**Constitutional Example**:
-```typescript
+La documentación de código no puede reemplazar pruebas ni evidencia funcional.
+
+### Ejemplo Constitucional
+
+```ts
 //💬Osuna: Calculates RSI indicator for trading signals (EN)
 //💬Osuna: Calcula el indicador RSI para señales de trading (ES)
 export function calculateRSI(...) { ... }
 ```
-
-**Constraint**: La ausencia de este estándar bloquea el cierre de tickets.
+La ausencia de este estándar bloquea el cierre de tickets.
 
 ---
 
-## 11. Broker Integration
+## 11. Integración con Brokers
 
 La plataforma debe operar al menos con:
 - Interactive Brokers como broker primario profesional
 - Alpaca como broker secundario o de paper trading
 
 Ambos deberán soportar:
+
 - Conectividad
 - Market data
 - Sincronización de portafolio
@@ -189,19 +187,23 @@ Ambos deberán soportar:
 
 La arquitectura de brokers debe ser extensible y desacoplada. El sistema debe permitir agregar nuevos brokers sin reescribir la lógica de señales o de decisión.
 
-**Extensible Future Brokers**: Tradier, TD Ameritrade/Schwab, NinjaTrader, Brokers crypto (future specs).
+Ejemplos de brokers futuros soportables:
 
-**Non-negotiable**: La lógica de trading no puede acoplarse a un broker específico.
+- Tradier
+- TD Ameritrade / Schwab
+- NinjaTrader
+- Brokers crypto (en specs futuras)
+
+La lógica de trading no puede acoplarse a un broker específico.
 
 ---
 
-## 12. AI Agent Government
-
-### 12.1 Nature of Agents
+## 12. Gobierno Constitucional de Agentes
+### 12.1 Naturaleza de los Agentes
 
 Los agentes de IA son roles documentados y no entidades autónomas sin control.
 
-**Mandatory Principles**:
+Principios obligatorios:
 - Ningún agente puede actuar fuera de su rol asignado
 - Ningún agente puede ejecutar trabajo sin trazabilidad
 - Ningún agente puede sustituir la aprobación humana
@@ -209,7 +211,7 @@ Los agentes de IA son roles documentados y no entidades autónomas sin control.
 
 Los roles conceptuales del proyecto se entienden como herramientas de gobernanza y no como autoridad constitutiva superior al equipo humano.
 
-### 12.2 Mandatory Rules for Every Agent
+### 12.2 Reglas Obligatorias para Todo Agente
 
 Todo agente de IA que participe en el desarrollo:
 
@@ -218,54 +220,60 @@ Todo agente de IA que participe en el desarrollo:
 - DEBE dejar evidencia verificable de salida
 - NO puede ejecutar trabajo fuera de su fase asignada
 
-**Blocking constraint**: La ausencia de cualquiera de estos elementos bloquea el avance del trabajo.
+La ausencia de cualquiera de estos elementos bloquea el avance del trabajo.
 
-### 12.3 Mandatory Constitutional Operational Flow
+---
+
+### 12.3 Orden Operativo Constitucional Obligatorio
 
 El flujo operativo de agentes es obligatorio e inmutable:
 
-```
-Morpheus → (Neo ∥ Architect) → (Trinity ∥ Oracle) → Osuna Aprobación
-```
+``Morpheus → (Neo ∥ Architect) → (Trinity ∥ Oracle) → Aprobación``
 
 - Morpheus: análisis, investigación y diseño
 - Neo: implementación
 - Trinity: optimización y seguridad
 - Architect: gestor de bases de datos y servicios REST API 
 - Oracle: validación y testing
-- Osuna: aprobación y validación humana explícita
+- Osuna: aprovación y validación humana explícita
 
-**Violations result in**:
+Violaciones a este flujo bloquean el avance del trabajo.
+Cualquier violación a:
+
+- El orden de agentes
+- Las reglas de visibilidad
+- La falta de evidencia
+
+resulta en:
+
 - Bloqueo inmediato del flujo
 - No cierre de tickets
 - No avance de fase
 
-### 12.4 Framework Independence
+---
+
+### 12.4 Independencia de Frameworks
 
 Los agentes definidos en esta Constitución:
+
 - Son independientes de los agentes internos de SpecKit u otros frameworks
 - Funcionan como modelo de gobierno y orquestación
 - Pueden operar sobre SpecKit, OpenSpec, u otros frameworks
 
-**Non-negotiable**: SpecKit no reemplaza este gobierno; se subordina a él.
+SpecKit no reemplaza este gobierno; se subordina a él.
 
 ---
 
-## 13. Ecosystem Scalability
+## 13. Escalabilidad del Ecosistema
 
-Los principios de esta Constitución aplican a todas las aplicaciones del ecosistema, garantizando:
-- Reutilización de agentes, skills y gobierno
-- Consistencia técnica
-- Escalabilidad organizacional
-
-**Including**:
+Los principios de esta Constitución aplican a todas las aplicaciones del ecosistema, garantizando reutilización de agentes, skills y gobierno, consistencia técnica, escalabilidad organizacional, incluyendo:
 - Plataformas educativas (cursos, tutoriales, LMS Empresariales)
-- Sistemas con agentes IA Copilot integrada
+- Sistemas con agentes  IA Copilot integrada
 - Aplicaciones PWA + REST API futuras con framework AI Skill Development
 
 ---
 
-## 14. Evolution and Future Amendments
+## 14. Evolución y Enmiendas
 
 La plataforma está diseñada para evolucionar hacia:
 
@@ -274,7 +282,8 @@ La plataforma está diseñada para evolucionar hacia:
 - Nuevos brokers y mercados
 - Nuevos cores especializados
 
-**Constitutional Amendment Requirement**: Cualquier cambio que:
+Cualquier cambio que:
+
 - Modifique la filosofía
 - Altere el rol de la IA
 - Habilite ejecución automática
@@ -283,7 +292,7 @@ requiere enmienda constitucional explícita y documentada.
 
 ---
 
-## 15. Change Governance
+## 15. Gobernanza de Cambios
 
 1. Todo cambio relevante debe originarse en un UCC o en un artefacto formal equivalente.
 2. Cualquier modificación del comportamiento del sistema debe preservar la trazabilidad entre necesidad de negocio, decisión de diseño e implementación.
@@ -293,7 +302,7 @@ requiere enmienda constitucional explícita y documentada.
 
 ---
 
-## 16. Quality and Compliance Criteria
+## 16. Criterios de Calidad y Cumplimiento
 
 El sistema debe cumplir, como mínimo, con estos criterios:
 
@@ -305,61 +314,53 @@ El sistema debe cumplir, como mínimo, con estos criterios:
 - Evitar afirmaciones que puedan interpretarse como asesoría financiera certificada
 - Mantener trazabilidad de contexto para señales y salidas de IA
 
-**Non-negotiable**: La plataforma debe mantener separación clara entre observación, análisis y decisión humana.
+La plataforma debe mantener separación clara entre observación, análisis y decisión humana.
 
 ---
 
-## 17. UCC-to-Constitution Traceability Mapping
+## 17. Trazabilidad UCC -> Constitución
 
-- **Contexto y motivación del UCC**: se traduce en el propósito de centralizar la gestión de inversiones y reducir dispersión de información.
-- **Necesidad general**: se convierte en el alcance funcional base del sistema.
-- **Gestión del portafolio**: se formaliza como capacidad central.
-- **Señales de mercado**: se transforma en el principio de confluencia y trazabilidad de señales.
-- **Análisis con inteligencia artificial**: se limita a rol asistencial y de correlación.
-- **Seguimiento de operaciones**: se incorpora como obligación de auditabilidad e historial.
-- **Alertas y notificaciones**: se integra como criterio de relevancia operativa.
-- **Visibilidad del rendimiento**: se refleja en criterios de calidad y experiencia.
-- **Exploración del mercado**: se incluye en el alcance funcional permitido.
-- **Restricciones del negocio**: se consolidan como límites constitucionales no negociables.
+- Contexto y motivación del UCC: se traduce en el propósito de centralizar la gestión de inversiones y reducir dispersión de información.
+- Necesidad general: se convierte en el alcance funcional base del sistema.
+- Gestión del portafolio: se formaliza como capacidad central.
+- Señales de mercado: se transforma en el principio de confluencia y trazabilidad de señales.
+- Análisis con inteligencia artificial: se limita a rol asistencial y de correlación.
+- Seguimiento de operaciones: se incorpora como obligación de auditabilidad e historial.
+- Alertas y notificaciones: se integra como criterio de relevancia operativa.
+- Visibilidad del rendimiento: se refleja en criterios de calidad y experiencia.
+- Exploración del mercado: se incluye en el alcance funcional permitido.
+- Restricciones del negocio: se consolidan como límites constitucionales no negociables.
 
 ---
 
-## 18. Constitution Versioning Policy
+## 18. Política de Versionado de la Constitución
 
-- **MAJOR**: cambios de propósito, alcance, modelo operativo o principios no negociables.
-- **MINOR**: ampliaciones normativas sin ruptura del propósito base.
-- **PATCH**: ajustes de redacción, trazabilidad o claridad sin cambio de sentido.
+- MAJOR: cambios de propósito, alcance, modelo operativo o principios no negociables.
+- MINOR: ampliaciones normativas sin ruptura del propósito base.
+- PATCH: ajustes de redacción, trazabilidad o claridad sin cambio de sentido.
 
 Toda nueva versión debe estar vinculada a un UCC o cambio formal que justifique la actualización.
 
 ---
 
-## 19. Detected Gaps
+## 19. Estado
+
+- Activa
+
+Este documento constituye la constitución canónica del proyecto diana-inversions_app y reemplaza la versión 2.0.0 previa.
+
+---
+
+## 20. Gaps Detectados
 
 - El UCC y el borrador constitucional no fijan criterios detallados de despliegue, observabilidad ni seguridad operacional.
 - Los estándares exactos de prompts, agentes y evidencias deberán concretarse en los artefactos posteriores de skills, knowledge y plan.
 - La integración con brokers reales debe validarse con especificación técnica y restricciones de mercado/regulación.
 
----
-
-## 20. Final Declaration
+## 21. Declaración Final
 
 Esta Constitución define qué es y qué no es la plataforma.
 
 Toda SPEC, ticket, agente, skill o línea de código deberá:
 
 - Respetar, reflejar y reforzar esta Constitución
-- Preservar los límites no negociables
-- Documentar decisiones que contravengan normas previas mediante cambios formales
-
----
-
-## Governance
-
-Esta constitución es canónica, vinculante y prevalece sobre todas las demás prácticas.
-
-- Toda enmienda requiere documentación formal, traza explícita a UCC o cambio de negocio, y aprobación.
-- El canon se opera mediante herramientas de ejecución (SpecKit, Diana SDK) y no sobre suposiciones.
-- Los cambios a esta constitución son registrados y versionados en gobierno de cambios.
-
-**Version**: 2.1.0 | **Ratified**: 2026-05-03 | **Last Amended**: 2026-05-03 | **Status**: Canonical Constitution (Activa)
